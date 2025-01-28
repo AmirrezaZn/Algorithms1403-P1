@@ -39,7 +39,7 @@ def load_notebook(notebook_path):
 
 
 # Load and execute the notebook
-notebook_path = "LEC01.ipynb"
+notebook_path = "LEC01/LEC01.ipynb"
 load_notebook(notebook_path)
 m=load_notebook_functions(notebook_path)
 # Sample test cases for the notebook's functions
