@@ -32,5 +32,7 @@ jobs:
       run: |
         pip install ipytest
         pip install nbformat
+        pip install nbconvert
+        pip install pytest
         python ./LEC01/test.py
         
