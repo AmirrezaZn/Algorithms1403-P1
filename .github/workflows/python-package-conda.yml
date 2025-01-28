@@ -34,5 +34,5 @@ jobs:
         pip install nbformat
         pip install nbconvert
         pip install pytest
-        python LEC01/test.py
+        python LEC01/test.py --notebook-path "LEC01/LEC01.ipynb"
         
