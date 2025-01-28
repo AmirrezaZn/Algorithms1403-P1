@@ -43,7 +43,7 @@ notebook_path = "LEC01/LEC01.ipynb"
 load_notebook(notebook_path)
 m=load_notebook_functions(notebook_path)
 # Sample test cases for the notebook's functions
-def test_karatsuba():
+def test_gradeSchool():
     if "gradeSchoolMult" in m:  # Replace with your function name
         result = m["gradeSchoolMult"](1234567, 654321)
         print("Result:", result)
