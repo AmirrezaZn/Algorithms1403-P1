@@ -31,5 +31,6 @@ jobs:
     - name: Test with pytest
       run: |
         pip install ipytest
+        pip install nbformat
         python ./LEC01/test.py
         
