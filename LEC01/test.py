@@ -17,11 +17,10 @@ def load_notebook_functions(notebook_path):
     # Loop through all cells in the notebook
     for cell in notebook.cells:
         if cell.cell_type == "code":  # Only process code cells
-            print(f"Executing cell:\n{cell.source}\n")  # Print the cell content
             try:
                 exec(cell.source, global_vars)  # Execute the cell
             except Exception as e:
-                print(f"Error in cell:\n{cell.source}\nError: {e}")
+                print(e)
     
     return global_vars
 
