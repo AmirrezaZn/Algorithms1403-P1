@@ -35,6 +35,5 @@ jobs:
         pip install nbconvert
         pip install pytest
         pip install matplotlib
-        pip install numpy
         python LEC01/test.py --notebook-path "LEC01/LEC01.ipynb"
         
