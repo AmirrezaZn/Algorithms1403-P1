@@ -46,7 +46,6 @@ m=load_notebook_functions(notebook_path)
 def test_gradeSchool():
     if "gradeSchoolMult" in m:  # Replace with your function name
         result = m["gradeSchoolMult"](1234567, 654321)
-        print("Result:", result)
         assert result==1234567*654321
     else:
         print("Function not found in notebook!")
